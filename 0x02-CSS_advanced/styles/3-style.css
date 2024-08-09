@@ -1,33 +1,29 @@
-/* When scrolling is triggered, the behavior of the scroll is to be as fluid */
+/* enable smooth/fluid scrolling in html element */
 html {
     scroll-behavior: smooth;
 }
-/* Root element changes */
-:root {
+/* Declaring css variables */
+:root{
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
-    --color-light: #f3f3f3;
+    --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+    
 }
-/* body and links foreground color change */
-body {
+
+/* body and links foreground color: #161616
+   specified class names foreground color: #D73953
+*/
+body, a{
     color: var(--text-color);
 }
 
-a {
-    color: var(--text-color);
-}
-
-.visually-hidden {
+.visually-hidden{
     display: none;
 }
 
-.card-category {
-    color: var(--color-primary);
-}
-
-.section-tagline {
+.card-category, .section-tagline{
     color: var(--color-primary);
 }
