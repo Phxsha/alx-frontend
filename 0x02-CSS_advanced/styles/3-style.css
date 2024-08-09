@@ -14,7 +14,11 @@ html {
 /* body and links foreground color change
    specified class names foreground color change
 */
-body, a {
+body {
+    color: var(--text-color);
+}
+
+a {
     color: var(--text-color);
 }
 
