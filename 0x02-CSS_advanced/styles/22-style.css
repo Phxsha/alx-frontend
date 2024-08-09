@@ -7,12 +7,12 @@
 *, *:before, *:after {
     box-sizing: border-box;
   }
-  
+  /* Whole HTML Page */
   html {
       scroll-behavior: smooth;
       font-size: 62.5%;
   }
-  
+  /* Root customproperties */
   :root {
       --color-primary: #d73953;
       --color-black: #090909;
@@ -61,7 +61,7 @@
   
       --section-tagline-margin: 0;
   }
-  
+  /* body */
   body {
       color: var(--text-color);
       font-family: var(--font-family-base);
@@ -69,12 +69,12 @@
       font-weight: var(--font-weight-regular);
       line-height: var(--line-height-base);
   }
-  
+  /* Headings */
   h1, h2, h3, h4, h5, h6 {
       font-family: var(--font-family-title);
       font-weight: var(--font-weight-bold);
   }
-  
+  /* Links */
   a[href] {
       color: var(--text-color);
       text-decoration: none;
@@ -91,7 +91,7 @@
   a:active {
       background-color: var(--color-light-grey);
   }
-  
+  /* Classes */
   .card-category{
       color: var(--color-primary);
   }
@@ -169,12 +169,6 @@
       color: var(--nav-item-link-hover); 
   }
   
-  ul.row {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-  }
-  
   .col-1-3 {
       width:  33.33%;
   }
@@ -198,7 +192,13 @@
       display: table;
       clear: both;
   }
-  
+  /* Links */
+  ul.row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /* Specifics */
   [class^="col-"] {
       float: left;
       padding: 0.5rem;
