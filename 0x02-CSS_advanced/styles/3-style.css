@@ -1,0 +1,27 @@
+/* When scrolling is triggered, the behavior of the scroll is to be as fluid */
+html {
+    scroll-behavior: smooth;
+}
+/* Root element changes */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+/* body and links foreground color change
+   specified class names foreground color change
+*/
+body, a {
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category, .section-tagline {
+    color: var(--color-primary);
+}

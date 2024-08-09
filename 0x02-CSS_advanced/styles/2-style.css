@@ -1,0 +1,18 @@
+/* When scrolling is triggered, the behavior of the scroll is to be as fluid */
+html {
+    scroll-behavior: smooth;
+}
+/* body and links foreground color change
+   specified class names foreground color change
+*/
+body, a {
+    color: #161616;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category, .section-tagline {
+    color: #D73953;
+}
