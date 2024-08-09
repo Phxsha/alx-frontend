@@ -11,9 +11,7 @@ html {
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 }
-/* body and links foreground color change
-   specified class names foreground color change
-*/
+/* body and links foreground color change */
 body {
     color: var(--text-color);
 }
