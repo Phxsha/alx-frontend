@@ -137,6 +137,10 @@ a:active {
     margin-right: auto;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 .footer {
     padding: var(--footer-padding);
 }
@@ -204,7 +208,7 @@ ul.row {
     padding: 0;
     list-style-type: none;
 }
-/* Section Theme */
+
 [data-section-theme=“dark”] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
