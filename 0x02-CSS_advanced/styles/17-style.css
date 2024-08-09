@@ -139,3 +139,7 @@ a:active {
 .visually-hidden{
     display: none;
 }
+
+.footer {
+    padding: var(--footer-padding);
+}
