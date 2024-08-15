@@ -172,6 +172,10 @@ Adding animations
       margin-right: auto;
       margin-left: auto;
   }
+
+  .visually-hidden {
+    display: none;
+  }
   
   .footer {
       padding: var(--footer-padding);
